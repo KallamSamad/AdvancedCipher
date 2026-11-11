@@ -4,7 +4,7 @@
 I created a basic decryption and encryption Caeser cipher.
 
 ## Details
--I used constructor a initialisation list to copy the private attribute, encrypted, from the Cipher base class to add to the Caeser.cpp file. This is the only way to get private members along the inheritance chain without getter methods, without using protected.
+- I used constructor a initialisation list to copy the private attribute, encrypted, from the Cipher base class to add to the Caeser.cpp file. This is the only way to get private members along the inheritance chain without getter methods, without using protected.
 
 - I used pure virtual functions Cipher class because so I can generalise the features of the Cipher class and then specialise the encrypt and decrypt functions inside the Caeser class
 
